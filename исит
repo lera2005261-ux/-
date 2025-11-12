@@ -1,296 +1,335 @@
 <mxfile host="app.diagrams.net">
     <diagram name="Страница-1" id="u6mMxkBk0x3_8y8sKuq1">
-        <diagram id="6mQeIXYd2QAe7n3R9usW" name="Концептуальная модель">
-            <mxGraphModel dx="1427" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-                <root>
-                    <mxCell id="0"/>
-                    <mxCell id="1" parent="0"/>
-                    
-                    <!-- Entities as simple rectangles -->
-                    <!-- Сотрудник -->
-                    <mxCell id="Employee" value="&lt;b&gt;СОТРУДНИК&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
-                        <mxGeometry x="120" y="240" width="160" height="80" as="geometry"/>
-                    </mxCell>
-                    <!-- Отдел -->
-                    <mxCell id="Department" value="&lt;b&gt;ОТДЕЛ&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
-                        <mxGeometry x="420" y="240" width="140" height="60" as="geometry"/>
-                    </mxCell>
-                    <!-- Проект -->
-                    <mxCell id="Project" value="&lt;b&gt;ПРОЕКТ&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
-                        <mxGeometry x="120" y="480" width="140" height="60" as="geometry"/>
-                    </mxCell>
-                    <!-- Задание -->
-                    <mxCell id="Task" value="&lt;b&gt;ЗАДАНИЕ&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" vertex="1" parent="1">
-                        <mxGeometry x="420" y="480" width="140" height="60" as="geometry"/>
-                    </mxCell>
-                    <!-- Тип работы -->
-                    <mxCell id="WorkType" value="&lt;b&gt;ТИП РАБОТЫ&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="1">
-                        <mxGeometry x="420" y="80" width="140" height="60" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Attributes -->
-                    <!-- Employee Attributes -->
-                    <mxCell id="Att_Emp_1" value="ФИО" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="40" y="220" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Emp_2" value="Паспорт" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="40" y="260" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Emp_3" value="Фотография" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="40" y="300" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Emp_4" value="Телефоны" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="280" y="220" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Emp_5" value="Должность" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="280" y="260" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Emp_6" value="Зарплата" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="280" y="300" width="80" height="30" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Department Attributes -->
-                    <mxCell id="Att_Dep_1" value="Название" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="380" y="200" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Dep_2" value="Комната" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="380" y="240" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Dep_3" value="Телефоны" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="380" y="280" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Dep_4" value="Финансирование" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="520" y="240" width="80" height="30" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Project Attributes -->
-                    <mxCell id="Att_Proj_1" value="Название" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="40" y="460" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Proj_2" value="Даты" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="40" y="500" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Proj_3" value="Финансирование" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="200" y="480" width="80" height="30" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Task Attributes -->
-                    <mxCell id="Att_Task_1" value="Название" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="380" y="460" width="80" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Att_Task_2" value="Статьи расходов" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="520" y="480" width="80" height="30" as="geometry"/>
-                    </mxCell>
-
-                    <!-- WorkType Attributes -->
-                    <mxCell id="Att_WT_1" value="Тип" style="shape=ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="380" y="60" width="80" height="30" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Relationships -->
-                    <!-- Employee works in Department (1:N) -->
-                    <mxCell id="Rel_1" value="работает в" style="endArrow=openThin;endFill=0;dashed=1;rounded=0;html=1;labelBackgroundColor=#ffffff;fontSize=14;endSize=8;" edge="1" parent="1" source="Employee" target="Department">
-                        <mxGeometry width="160" height="160" relative="1" as="geometry">
-                            <mxPoint x="360" y="270" as="sourcePoint"/>
-                            <mxPoint x="520" y="270" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Rel_1_Card" value="1..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="310" y="265" width="30" height="20" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Rel_1_Card2" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="350" y="265" width="30" height="20" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Employee manages Department (1:1) -->
-                    <mxCell id="Rel_2" value="управляет" style="endArrow=openThin;endFill=0;dashed=1;rounded=0;html=1;labelBackgroundColor=#ffffff;fontSize=14;endSize=8;" edge="1" parent="1" source="Employee" target="Department">
-                        <mxGeometry width="160" height="160" relative="1" as="geometry">
-                            <mxPoint x="280" y="310" as="sourcePoint"/>
-                            <mxPoint x="460" y="250" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Rel_2_Card" value="0..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="360" y="290" width="30" height="20" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Employee manages other Employees (1:N) -->
-                    <mxCell id="Rel_3" value="управляет" style="endArrow=openThin;endFill=0;dashed=1;rounded=0;html=1;labelBackgroundColor=#ffffff;fontSize=14;endSize=8;" edge="1" parent="1" source="Employee" target="Employee">
-                        <mxGeometry width="160" height="160" relative="1" as="geometry">
-                            <mxPoint x="200" y="320" as="sourcePoint"/>
-                            <mxPoint x="200" y="380" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Rel_3_Card" value="0..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="180" y="340" width="30" height="20" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Rel_3_Card2" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="210" y="340" width="30" height="20" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Employee works on Project (M:N) -->
-                    <mxCell id="Rel_4" value="работает над" style="endArrow=openThin;endFill=0;dashed=1;rounded=0;html=1;labelBackgroundColor=#ffffff;fontSize=14;endSize=8;" edge="1" parent="1" source="Employee" target="Project">
-                        <mxGeometry width="160" height="160" relative="1" as="geometry">
-                            <mxPoint x="280" y="320" as="sourcePoint"/>
-                            <mxPoint x="200" y="480" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Rel_4_Card" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="260" y="380" width="30" height="20" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Rel_4_Card2" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="240" y="420" width="30" height="20" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Project has Tasks (1:N) -->
-                    <mxCell id="Rel_5" value="включает" style="endArrow=openThin;endFill=0;dashed=1;rounded=0;html=1;labelBackgroundColor=#ffffff;fontSize=14;endSize=8;" edge="1" parent="1" source="Project" target="Task">
-                        <mxGeometry width="160" height="160" relative="1" as="geometry">
-                            <mxPoint x="260" y="510" as="sourcePoint"/>
-                            <mxPoint x="420" y="510" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Rel_5_Card" value="1..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="320" y="505" width="30" height="20" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Rel_5_Card2" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="360" y="505" width="30" height="20" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Employee is assigned to Task (1:N) -->
-                    <mxCell id="Rel_6" value="назначен на" style="endArrow=openThin;endFill=0;dashed=1;rounded=0;html=1;labelBackgroundColor=#ffffff;fontSize=14;endSize=8;" edge="1" parent="1" source="Employee" target="Task">
-                        <mxGeometry width="160" height="160" relative="1" as="geometry">
-                            <mxPoint x="280" y="360" as="sourcePoint"/>
-                            <mxPoint x="460" y="510" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Rel_6_Card" value="0..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="360" y="420" width="30" height="20" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Rel_6_Card2" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="400" y="450" width="30" height="20" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Employee has WorkTypes (M:N) -->
-                    <mxCell id="Rel_7" value="выполняет" style="endArrow=openThin;endFill=0;dashed=1;rounded=0;html=1;labelBackgroundColor=#ffffff;fontSize=14;endSize=8;" edge="1" parent="1" source="Employee" target="WorkType">
-                        <mxGeometry width="160" height="160" relative="1" as="geometry">
-                            <mxPoint x="280" y="240" as="sourcePoint"/>
-                            <mxPoint x="420" y="140" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Rel_7_Card" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="320" y="180" width="30" height="20" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="Rel_7_Card2" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;" vertex="1" parent="1">
-                        <mxGeometry x="360" y="160" width="30" height="20" as="geometry"/>
-                    </mxCell>
-
-                    <!-- Connection lines from attributes to entities -->
-                    <!-- Employee Attributes -->
-                    <mxCell id="Line_Emp_1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Emp_1" target="Employee">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="120" y="240" as="sourcePoint"/>
-                            <mxPoint x="170" y="190" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Emp_2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Emp_2" target="Employee">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="120" y="240" as="sourcePoint"/>
-                            <mxPoint x="170" y="190" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Emp_3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Emp_3" target="Employee">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="120" y="240" as="sourcePoint"/>
-                            <mxPoint x="170" y="190" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Emp_4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Emp_4" target="Employee">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="240" y="240" as="sourcePoint"/>
-                            <mxPoint x="190" y="190" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Emp_5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Emp_5" target="Employee">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="240" y="240" as="sourcePoint"/>
-                            <mxPoint x="190" y="190" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Emp_6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Emp_6" target="Employee">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="240" y="240" as="sourcePoint"/>
-                            <mxPoint x="190" y="190" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-
-                    <!-- Department Attributes -->
-                    <mxCell id="Line_Dep_1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Dep_1" target="Department">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="490" y="270" as="sourcePoint"/>
-                            <mxPoint x="440" y="220" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Dep_2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Dep_2" target="Department">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="490" y="270" as="sourcePoint"/>
-                            <mxPoint x="440" y="220" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Dep_3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Dep_3" target="Department">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="490" y="270" as="sourcePoint"/>
-                            <mxPoint x="440" y="220" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Dep_4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Dep_4" target="Department">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="560" y="270" as="sourcePoint"/>
-                            <mxPoint x="510" y="220" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-
-                    <!-- Project Attributes -->
-                    <mxCell id="Line_Proj_1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Proj_1" target="Project">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="140" y="510" as="sourcePoint"/>
-                            <mxPoint x="90" y="460" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Proj_2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Proj_2" target="Project">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="140" y="510" as="sourcePoint"/>
-                            <mxPoint x="90" y="460" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Proj_3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Proj_3" target="Project">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="220" y="510" as="sourcePoint"/>
-                            <mxPoint x="170" y="460" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-
-                    <!-- Task Attributes -->
-                    <mxCell id="Line_Task_1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Task_1" target="Task">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="490" y="510" as="sourcePoint"/>
-                            <mxPoint x="440" y="460" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                    <mxCell id="Line_Task_2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_Task_2" target="Task">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="560" y="510" as="sourcePoint"/>
-                            <mxPoint x="510" y="460" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-
-                    <!-- WorkType Attributes -->
-                    <mxCell id="Line_WT_1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="Att_WT_1" target="WorkType">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry">
-                            <mxPoint x="490" y="110" as="sourcePoint"/>
-                            <mxPoint x="440" y="60" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                </root>
-            </mxGraphModel>
-        </diagram>
+        <mxGraphModel dx="1427" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <!-- Entities -->
+                <!-- Employees -->
+                <mxCell id="Employees" value="&lt;b&gt;Employees&lt;/b&gt;&lt;br&gt;(Сотрудники)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="200" width="180" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="30" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.1.0" value="id INT PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.1">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="55" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.2.0" value="full_name VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.2">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="80" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.3.0" value="passport_data TEXT" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.3">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="105" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.4.0" value="photo BLOB" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.4">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="130" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.5.0" value="home_phone VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.5">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="155" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.6.0" value="mobile_phone VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.6">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="180" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.7.0" value="room VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.7">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="205" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.8.0" value="work_phones JSON" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.8">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="230" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.9.0" value="position VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.9">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="255" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.10.0" value="salary_amount DECIMAL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.10">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="280" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.11.0" value="department_id INT FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.11">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="305" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.12.0" value="manager_id INT FK (self)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.12">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employees">
+                    <mxGeometry y="330" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employees.13.0" value="salary_form_id INT FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employees.13">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <!-- Departments -->
+                <mxCell id="Departments" value="&lt;b&gt;Departments&lt;/b&gt;&lt;br&gt;(Отделы)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="200" width="180" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Departments">
+                    <mxGeometry y="30" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.1.0" value="id INT PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Departments.1">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Departments">
+                    <mxGeometry y="55" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.2.0" value="name VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Departments.2">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Departments">
+                    <mxGeometry y="80" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.3.0" value="room VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Departments.3">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Departments">
+                    <mxGeometry y="105" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.4.0" value="phones JSON" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Departments.4">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Departments">
+                    <mxGeometry y="130" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.5.0" value="funding DECIMAL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Departments.5">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Departments">
+                    <mxGeometry y="155" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Departments.6.0" value="head_employee_id INT FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Departments.6">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <!-- Projects -->
+                <mxCell id="Projects" value="&lt;b&gt;Projects&lt;/b&gt;&lt;br&gt;(Проекты)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="450" width="180" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Projects">
+                    <mxGeometry y="30" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.1.0" value="id INT PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Projects.1">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Projects">
+                    <mxGeometry y="55" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.2.0" value="name VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Projects.2">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Projects">
+                    <mxGeometry y="80" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.3.0" value="start_date DATE" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Projects.3">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Projects">
+                    <mxGeometry y="105" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.4.0" value="end_date DATE" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Projects.4">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Projects">
+                    <mxGeometry y="130" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.5.0" value="funding DECIMAL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Projects.5">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Projects">
+                    <mxGeometry y="155" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Projects.6.0" value="funding_type ENUM" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Projects.6">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <!-- Tasks -->
+                <mxCell id="Tasks" value="&lt;b&gt;Tasks&lt;/b&gt;&lt;br&gt;(Задания)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="450" width="180" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="Tasks.1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tasks">
+                    <mxGeometry y="30" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Tasks.1.0" value="id INT PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Tasks.1">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Tasks.2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tasks">
+                    <mxGeometry y="55" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Tasks.2.0" value="name VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Tasks.2">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Tasks.3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tasks">
+                    <mxGeometry y="80" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Tasks.3.0" value="project_id INT FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Tasks.3">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Tasks.4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tasks">
+                    <mxGeometry y="105" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Tasks.4.0" value="assignee_id INT FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Tasks.4">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <!-- SalaryForms -->
+                <mxCell id="SalaryForms" value="&lt;b&gt;SalaryForms&lt;/b&gt;&lt;br&gt;(Формы оплаты)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="50" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="SalaryForms.1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="SalaryForms">
+                    <mxGeometry y="30" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="SalaryForms.1.0" value="id INT PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="SalaryForms.1">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="SalaryForms.2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="SalaryForms">
+                    <mxGeometry y="55" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="SalaryForms.2.0" value="form_type VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="SalaryForms.2">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <!-- WorkTypes -->
+                <mxCell id="WorkTypes" value="&lt;b&gt;WorkTypes&lt;/b&gt;&lt;br&gt;(Типы работ)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="50" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="WorkTypes.1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WorkTypes">
+                    <mxGeometry y="30" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="WorkTypes.1.0" value="id INT PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="WorkTypes.1">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="WorkTypes.2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WorkTypes">
+                    <mxGeometry y="55" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="WorkTypes.2.0" value="work_type VARCHAR" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="WorkTypes.2">
+                    <mxGeometry width="180" height="25" as="geometry"/>
+                </mxCell>
+                <!-- Junction Tables -->
+                <!-- Employee_WorkType -->
+                <mxCell id="Employee_WorkType" value="&lt;b&gt;Employee_WorkType&lt;/b&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="100" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employee_WorkType.1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employee_WorkType">
+                    <mxGeometry y="30" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employee_WorkType.1.0" value="employee_id INT PK,FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employee_WorkType.1">
+                    <mxGeometry width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employee_WorkType.2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employee_WorkType">
+                    <mxGeometry y="55" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employee_WorkType.2.0" value="worktype_id INT PK,FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employee_WorkType.2">
+                    <mxGeometry width="120" height="25" as="geometry"/>
+                </mxCell>
+                <!-- Employee_Project -->
+                <mxCell id="Employee_Project" value="&lt;b&gt;Employee_Project&lt;/b&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="500" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employee_Project.1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employee_Project">
+                    <mxGeometry y="30" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employee_Project.1.0" value="employee_id INT PK,FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employee_Project.1">
+                    <mxGeometry width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employee_Project.2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Employee_Project">
+                    <mxGeometry y="55" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Employee_Project.2.0" value="project_id INT PK,FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;" vertex="1" parent="Employee_Project.2">
+                    <mxGeometry width="120" height="25" as="geometry"/>
+                </mxCell>
+                <!-- Relationships -->
+                <!-- Employees belongs to Department -->
+                <mxCell id="rel1" value="" style="endArrow=ERoneToMany;startArrow=ERone;dashed=1;rounded=0;endFill=1;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="Departments" target="Employees">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="510" y="330" as="sourcePoint"/>
+                        <mxPoint x="610" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <!-- Employees has a Manager (self-reference) -->
+                <mxCell id="rel2" value="" style="endArrow=ERoneToMany;startArrow=ERone;dashed=1;rounded=0;endFill=1;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="Employees" target="Employees">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="200" y="330" as="sourcePoint"/>
+                        <mxPoint x="200" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <!-- Department has a Head (Employee) -->
+                <mxCell id="rel3" value="" style="endArrow=ERone;startArrow=ERone;dashed=1;rounded=0;endFill=0;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="Departments" target="Employees">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="510" y="355" as="sourcePoint"/>
+                        <mxPoint x="300" y="355" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <!-- Employee has a SalaryForm -->
+                <mxCell id="rel4" value="" style="endArrow=ERoneToMany;startArrow=ERone;dashed=1;rounded=0;endFill=1;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="SalaryForms" target="Employees">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="210" y="130" as="sourcePoint"/>
+                        <mxPoint x="210" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <!-- Employee to WorkType (M:N) -->
+                <mxCell id="rel5" value="" style="endArrow=ERoneToMany;startArrow=ERone;dashed=1;rounded=0;endFill=1;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="Employees" target="Employee_WorkType">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="300" y="230" as="sourcePoint"/>
+                        <mxPoint x="300" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rel6" value="" style="endArrow=ERoneToMany;startArrow=ERone;dashed=1;rounded=0;endFill=1;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="WorkTypes" target="Employee_WorkType">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="420" y="130" as="sourcePoint"/>
+                        <mxPoint x="420" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <!-- Project has Tasks -->
+                <mxCell id="rel7" value="" style="endArrow=ERoneToMany;startArrow=ERone;dashed=1;rounded=0;endFill=1;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="Projects" target="Tasks">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="300" y="530" as="sourcePoint"/>
+                        <mxPoint x="420" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <!-- Task is assigned to an Employee -->
+                <mxCell id="rel8" value="" style="endArrow=ERoneToMany;startArrow=ERone;dashed=1;rounded=0;endFill=1;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="Employees" target="Tasks">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="300" y="580" as="sourcePoint"/>
+                        <mxPoint x="300" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <!-- Employee to Project (M:N) -->
+                <mxCell id="rel9" value="" style="endArrow=ERoneToMany;startArrow=ERone;dashed=1;rounded=0;endFill=1;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="Employees" target="Employee_Project">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="300" y="430" as="sourcePoint"/>
+                        <mxPoint x="300" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rel10" value="" style="endArrow=ERoneToMany;startArrow=ERone;dashed=1;rounded=0;endFill=1;jettySize=8;orthogonalLoop=1;strokeWidth=1;" edge="1" parent="1" source="Projects" target="Employee_Project">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="300" y="630" as="sourcePoint"/>
+                        <mxPoint x="300" y="580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
     </diagram>
 </mxfile>
